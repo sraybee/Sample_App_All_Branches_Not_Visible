@@ -9,8 +9,8 @@ on:
 jobs:
   build:
     steps:
-      - name: Say hello from main
+      - name: Say hello from ABCD
         uses: docker://golang:1.20.3-alpine3.17
         shell: sh
         run: |
-          echo "hello world main"
+          echo "hello world ABCD"
